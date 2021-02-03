@@ -16,6 +16,20 @@ Do it 안드로이드 앱 프로그래밍
     - 박스 모델
     - 한 쪽 방향으로 차례대로 뷰를 추가하며 화면을 구성하는 방법(Horizontal, Vertical)
     - 뷰가 차지할 수 있는 사각형 영역을 할당
+    
+#### 필수 속성: 방향
+
+#### 자바 소스코드에서 뷰를 만들기
+LayoutParams객체: 레이아웃에 추가되는 뷰의 레이아웃과 관련된 속성을 담고 있음.
+반드시 뷰의 가로와 세로 속성을 지정해야 한다. 
+~~~ java
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
+          LinearLayout.LayoutParams.MATCH_PARENT,
+          LinearLayout.LayoutParams.WRAP_CONTENT
+        );
+~~~
+add
+
 ### 3. 상대(RelativeLayout)
     - 규칙 기반 모델
     - 부모 컨테이너나 다른 뷰와의 상대적 위치로 화면을 구성하는 방법
