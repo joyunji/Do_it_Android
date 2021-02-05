@@ -63,7 +63,10 @@ orientation: horizontal, vertical
 ##### 정렬 속성
 layout_gravity: 부모 컨네이너의 여유공간 안에서 뷰를 정렬함.<br>
 gravity: 뷰 안에 표시하는 내용물(텍스트뷰 안의 텍스트, 이미지뷰 안의 이미지...)을 정렬함
+baselineAligned: 뷰안의 텍스트끼리의 정렬
 
+
+-----------------------------------------
 
 ### 3. 상대(RelativeLayout)
     - 규칙 기반 모델
