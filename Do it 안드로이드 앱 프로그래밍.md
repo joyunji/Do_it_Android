@@ -71,6 +71,14 @@ baselineAligned: 뷰안의 텍스트끼리의 정렬
 
 ![view](https://user-images.githubusercontent.com/49296139/107012772-ccb7dd80-67dc-11eb-9945-c4450b2eee73.jpg)
 
+### layout_weight 
+: 부모 컨테이너에 남아있는 여유 공간을 분할하여 기존에 추가했던 뷰들에게 할당
+--> 뷰에 지정한 크기에 추가되는 값
+
+
+
+
+
 -----------------------------------------
 
 ### 3. 상대(RelativeLayout)
