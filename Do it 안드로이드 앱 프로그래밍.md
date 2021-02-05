@@ -7,6 +7,8 @@ Do it 안드로이드 앱 프로그래밍
 
 ### 뷰 정렬하기
 
+![unnamed](https://user-images.githubusercontent.com/49296139/107012291-2e2b7c80-67dc-11eb-9185-6c264c49f468.jpg)
+
 
 ## 2. 레이아웃(Layout)
 대표적인 5가지의 레이아웃
@@ -65,6 +67,9 @@ layout_gravity: 부모 컨네이너의 여유공간 안에서 뷰를 정렬함.<
 gravity: 뷰 안에 표시하는 내용물(텍스트뷰 안의 텍스트, 이미지뷰 안의 이미지...)을 정렬함
 baselineAligned: 뷰안의 텍스트끼리의 정렬
 
+#### padding & margine
+
+![view](https://user-images.githubusercontent.com/49296139/107012772-ccb7dd80-67dc-11eb-9945-c4450b2eee73.jpg)
 
 -----------------------------------------
 
